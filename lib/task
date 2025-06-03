@@ -1,0 +1,56 @@
+
+
+📦 Task 1: ToDo App with SharedPreferences
+* Create a simple ToDo app.
+* Use SharedPreferences to store tasks locally.
+* Implement full CRUD operations: Create, Read, Update, Delete.
+
+📷 Task 2: Image Grid Viewer
+* Use a given API to fetch image URLs.
+* Display the images in a GridView.
+* On tapping an image, navigate to a new screen and show the image in full screen.
+
+🌐 Task 3: Fetch and Display User List
+* Use https://jsonplaceholder.typicode.com/users
+* Show list of users in a ListView
+* Tap on a user → Navigate to detail screen showing name, email, address
+
+🧠 Task 4: Quiz App
+* Show one question at a time with multiple options
+* On tap, highlight correct/wrong answer
+* After last question, show score
+
+📅 Task 5: Note App with SQLite
+* Use sqflite package
+* Allow adding, updating, deleting notes
+* Notes stored with title, content, and creation date
+
+📦 Task 6: Product List with Search & Filter
+* Load static product list (can be local or API)
+* Implement search by name
+* Add filter by category or price range
+
+🎨 Task 7: Animated Splash Screen
+* Show a logo and fade-in text
+* After 3 seconds, navigate to Home screen
+* Use AnimatedOpacity or Lottie
+
+🛒 Task 8: Simple Cart App
+* Show list of items with “Add to Cart” button
+* Clicking "Cart" icon shows cart screen with added items
+* Update quantity or remove items
+
+🧭 Task 9: Multi-Screen Navigation
+* Build 4 screens: Home, About, Contact, Profile
+* Navigate using a bottom navigation bar
+* Maintain screen state using IndexedStack
+
+📷 Task 10: Pick and Display Image
+* Use image_picker to pick image from gallery or camera
+* Display picked image in the app
+* Option to delete/reset the image
+
+🔔 Task 11: Local Notification
+* Use flutter_local_notifications
+* Show notification when a button is clicked
+* Schedule a notification 10 seconds later
