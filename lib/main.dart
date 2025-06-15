@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:image_gallaery/quiz_app.dart';
 
 import 'package:image_gallaery/user_detail_fetching.dart';
 
@@ -13,10 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           useMaterial3: true,
         ),
-        home: UserFetching());
+        home: QuizApp());
   }
 }
